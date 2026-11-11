@@ -5,7 +5,7 @@ app = Flask(__name__)
 def add(a, b):
 
   return a + b
-  @app.route("/")
+@app.route("/")
 def home():
   return f"App is running! 3 + 2 = {add(3, 2)}"
 if __name__ == "__main__":
